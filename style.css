@@ -1,0 +1,41 @@
+body {
+text-align: center;
+font-family: georgia;
+background-color: pink;
+color: blueviolet;
+padding: 5px;
+}
+
+.quadrado {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background: #eee;
+    display: inline-block;
+    padding: 0px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border: 3px dashed palevioletred;
+    line-height: 100px;
+}
+
+.jogador, .vencedor {
+font-size: 25px;
+margin-top: 10px;
+color: blueviolet;
+}
+
+button {
+margin-top: 10px;
+width: 170px;
+height: 60px;
+cursor: pointer;
+background: palevioletred;
+font-size: 20px;
+font-family: georgia;
+color: white;
+border: 3px solid white;
+}
+
